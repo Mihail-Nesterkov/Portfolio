@@ -1,0 +1,164 @@
+@import "reset.css";
+body{
+    /*font-family: 'Roboto Mono', monospace;*/
+    font-family: 'Playfair Display', serif;
+    background-color: grey;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+
+    width: 100%;
+    padding: 7px 12px;
+    background-color: #3b3939;
+
+}
+.title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 30%;
+}
+.nav_list{
+    display: flex;
+}
+.nav_list li{
+    ;
+}
+.nav_list li a{
+    margin-right: 30px;
+    text-decoration: none;
+    background-color: #3b3939;
+    color: wheat;
+}
+.nav_list li a:hover, .nav_list li a:active, .nav_list li a:focus{
+    background-color: white;
+    color: black;
+}
+main{
+
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    background-color: darkgray;
+}
+.info{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    width: 50%;
+}
+.text p{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    line-height: 2rem;
+}
+.foto{
+    margin-top: 15px;
+    width: 480px;
+    height: 600px;
+    background-image: url("../image/foto/foto.jpg");
+    background-size: cover;
+}
+.btn{
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    width: fit-content;
+    margin-top: 15px;
+    background-color: #2768e8;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover, .btn:focus{
+    font-size: 16px;
+    background-color: black;
+    color: wheat;
+}
+.about_me{
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 2rem;
+}
+#about_me{
+    display: none;
+
+    text-align: center;
+}
+#kontact{
+    display: none;
+
+    text-align: center;
+}
+#kontact p{
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 2rem;
+}
+#portfolio{
+    display: none;
+
+    text-align: center;
+}
+.wrap{
+    max-width: 360px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards a{
+    text-decoration: none;
+}
+.work_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    background-color: wheat;
+    width: 300px;
+    height: 200px;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    transition: transform 0.5s ease-in, border-radius 0.5s ease-in;
+}
+.info_blog{
+    display: none;
+    color: black;
+    max-width: 300px;
+    text-decoration: none;
+}
+.work_cards:hover, .work_cards:active, .work_cards:focus{
+    background-color: #f6d18b;
+    transform: translateY(-10px);
+    border-radius: 20px;
+}
+
+.text_card{
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    margin-top: 20px;
+    font-size: 25px;
+    line-height: 2rem;
+}
+.footer{
+    margin-top: 15px;
+    height: 100px;
+    background-color: #151313;
+}
